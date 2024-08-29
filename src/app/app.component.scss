@@ -1,0 +1,25 @@
+.date-picker-list .am-list-item .am-list-line .am-list-extra {
+  flex-basis: initial;
+}
+
+.container {
+  height: 95vh;
+  background-color: #fff;
+  overflow-y: auto;
+}
+
+.card-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .item {
+    display: flex;
+    align-items: center;
+  }
+  stepper {
+    max-width: 40%;
+  }
+  list {
+    width: 100%;
+  }
+}
